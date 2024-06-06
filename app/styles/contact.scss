@@ -1,0 +1,44 @@
+@import 'main';
+
+.contact{
+  .container-inner{
+    width: 100%;
+    flex-direction: column-reverse;
+  }
+  iframe{
+    width: 100%;
+  }
+  .contact-info{
+    margin-top: 10px;
+    .info-item{
+      margin-bottom: 5px;
+      svg{
+        margin-right: 10px;
+        fill: $light-blue;
+      }
+    }
+  }
+  .form{
+    .form-control{
+      background-color: transparent;
+      border-color: $light-blue;
+      color: $white;
+    }
+    .form-label{
+      margin-bottom: 0.3rem;
+    }
+    .btn-primary:hover{
+      border-color: $secondary;
+      background-color: transparent;
+    }
+  }
+
+  @media all and (min-width: $large) {
+    .container-inner{
+      flex-direction: row;
+    }
+    .form, .alert-container{
+      padding-left: 100px;
+    }
+  }
+}

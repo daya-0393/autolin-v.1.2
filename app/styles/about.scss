@@ -1,0 +1,21 @@
+@import 'main';
+
+.about{
+
+  .card-image{
+    height: fit-content;
+  }
+  
+  @media all and (min-width: $medium){
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card{
+      min-height: 288.5px;
+      .card-image{
+        height: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "values": [
+    {
+      "title": "Confianza",
+      "bodyText": "Somos un taller con amplia trayectoria y solidez. Por eso nuestros clientes confían en nuestro trabajo.",
+      "imageUrl": "/images/icons/trust.png"
+    },
+    {
+      "title": "Multiples Servicios",
+      "bodyText": "Nos encargamos de brindar un servcio especializado, que se ajuste a las necesidades de cada uno de nuestros clientes.",
+      "imageUrl": "/images/icons/services.png"
+    },
+    {
+      "title": "Garantía",
+      "bodyText": "Todos nuestros trabajos cuentan con un respaldo, asegurandonos de que cada uno de nuestros clientes quede satisfecho con nuestro trabajo.",
+      "imageUrl": "/images/icons/guarantee.png"
+    },
+    {
+      "title": "Innovación",
+      "bodyText": "Constantemente estamos innovando para ofrecer un servicio con lo ultimo en el mercado.",
+      "imageUrl": "/images/icons/innovation.png"
+    }
+  ],
+  "services": [
+    {
+      "title": "Pintura",
+      "text": "Nuestros servicios en Enderezado y pintura se centran en devolver a un vehículo su línea y acabado de fabrica con la mas alta calidad recuperando su apariencia original.",
+      "image": "/images/services/pintura.jpg"
+    },
+    {
+      "title": "Aire acondicionado",
+      "text": "En Autolin ofrecemos a nuestros clientes un servicio de la más alta calidad para que cuando se ponga en marcha, funcione de manera correcta.",
+      "image": "/images/services/ac.jpg"
+    },
+    {
+      "title": "Lubricentro",
+      "text": "Disponemos para tu vehículo una gama amplia de aceites tanto para motores, cajas manuales, cajas automáticas, y diferenciales.",
+      "image": "/images/services/lubricentro.jpg"
+    },
+    {
+      "title": "Llantera",
+      "text": "Brindamos el servicio de reparación de llantas, balanceo, rotación entro otros aspectos esenciales para el mantenimiento de las mismas. Ofrecemos gran variedad de marcas, de primera calidad y accesibles.",
+      "image": "/images/services/llanta.jpg"
+    },
+    {
+      "title": "Auto lavado",
+      "text": "Lavado de (carrocería, Motor, Chasis) aspirado profundo, encerado con cera liquida y en pasta, limpieza y descontaminación profunda de interiores, descontaminación de carrocería, grafitado de chasis.",
+      "image": "/images/services/lavado.jpg"
+    },
+    {
+      "title": "Mecánico General",
+      "text": "Contamos con equipos de análisis y al acceso a los datos técnicos necesarios, nuestros especialistas realizarán de manera rápida y profesional cualquier trabajo mecánico que precise su vehículo.",
+      "image": "/images/services/mantenimiento.jpg"
+    },
+    {
+      "title": "Muflas",
+      "text": "Instalación de catalizadores, silenciadores, roncadores, silenciadores de alto flujo, tubos flexibles, fabricación de Flanger , trabajos en soldadura en cualquier detalle que ocupe en su vehículo.",
+      "image": "/images/services/muflas.jpg"
+    }
+  ],
+  "gallery": [
+    "/images/gallery/carro1.webp",
+    "/images/gallery/carro2.webp",
+    "/images/gallery/carro3.webp",
+    "/images/gallery/carro4.webp",
+    "/images/gallery/carro5.webp",
+    "/images/gallery/carro6.webp",
+    "/images/gallery/carro7.webp",
+    "/images/gallery/carro8.webp",
+    "/images/gallery/carro9.webp",
+    "/images/gallery/carro10.webp",
+    "/images/gallery/carro11.webp",
+    "/images/gallery/carro12.webp"
+  ],
+  "reviews": [
+    {
+      "name": "Juan Pérez Gómez",
+      "rating": 4,
+      "text": "Servicio excelente y muy amables",
+      "image": "/images/users/user-1.png"
+    },
+    {
+      "name": "Alberto Salazar Navarro",
+      "rating": 5,
+      "text": "Excelente atención cuentan con varios servicios tales como mecánica general, eléctrica reparación de llantas lava car y otros",
+      "image": "/images/users/user-2.png"
+    },
+    {
+      "name": "Francisco Madrigal",
+      "rating": 5,
+      "text": "Excelente servicio y detalle. Los recomiendo ampliamente",
+      "image": "/images/users/user-3.png"
+    },
+    {
+      "name": "Skarleth Morales",
+      "rating": 4,
+      "text": "Muy bueno, me encanta rapido y cerca",
+      "image": "/images/users/user-4.png"
+    },
+    {
+      "name": "Edgar Guadamuz",
+      "rating": 4,
+      "text": "Excelente lavado, muy confiables. Ofrecen muchos servicios incluyendo mecánica rápida",
+      "image": "/images/users/user-5.png"
+    }
+  ]
+}

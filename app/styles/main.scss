@@ -1,0 +1,83 @@
+
+//Grid Breakpoints
+$small: 576px;
+$medium: 768px;
+$large: 992px;
+$x_lg: 1200px;
+$xx_lg: 1400px;
+
+//Colors
+$primary:       #10466a;
+$secondary:     #6aab12;
+$light-blue:    #089fb4;
+$dark-blue:     #0a2c43;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px
+);
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: $dark-blue;
+  color: $white;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+
+  .section-title{
+    font-size: 3rem;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.btn{
+  padding: 10px 30px;
+  background-color: transparent;
+}
+.btn-primary{
+  border: 2px solid $light-blue;
+  color: $white;
+}
+
+.btn-secondary{
+  border: 2px solid $secondary;
+  color: $white;
+}
+
+@media all and (min-width: $large){
+  section{
+    padding: 100px 0;
+    .section-title{
+      font-size: 5rem;
+      margin-bottom: 50px;
+      text-align: start;
+    }
+  }
+}

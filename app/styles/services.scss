@@ -1,0 +1,83 @@
+@import 'main';
+
+.services{
+  .card{
+    border: 0;
+    padding: 0 15px;
+    background-color: transparent;
+    .card-inner{
+      background-color: transparent;
+    }
+    .card-img-top{
+      height: 230px;
+      position: relative;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .card-body{
+      color: $white;
+      padding-top: 10px;
+      padding-right: 10px;
+      padding-left: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+  }  
+  .slick-arrow{
+    display: none !important;
+  }
+  .slick-dots{
+    button::before{
+      color: $white;
+      opacity: .50;
+    }
+    .slick-active{ 
+      button::before{
+        font-size: 8px;
+        color: $secondary;
+        opacity: .80;
+      }  
+    } 
+  } 
+
+  @media all and (min-width: $large){
+    .slick-prev, .slick-next{
+      display: block !important;
+      width: 40px;
+      height: 40px;
+      top: -55px;
+      border: 2px solid $secondary;
+      border-radius: 50px;
+      &:hover{
+        background-color: $secondary;
+        &::before{
+          color: $white;
+        }
+      }
+    }
+    .slick-next::before,
+    .slick-prev::before{
+      font-size: 20px;
+      opacity: 1;
+      line-height: 0;
+      color: $secondary;
+    }
+    .slick-prev{
+      right: 55px;
+      left: unset;
+      &::before{
+        content: '\002329';
+      }
+    }
+    .slick-next{
+      right: 8px;
+      &::before{
+        content: '\00232A';
+      }
+    }
+  }
+}
+

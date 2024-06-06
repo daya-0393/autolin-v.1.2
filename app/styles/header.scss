@@ -1,0 +1,17 @@
+@import 'main';
+
+.header{
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  padding: 10px 0;
+  z-index: 3;
+  background-color: $white;
+  .nav-link{
+    color: $primary;
+  }
+  .container-fluid{
+    background-color: $white;
+  }
+}

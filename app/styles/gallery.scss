@@ -1,0 +1,14 @@
+@import 'main';
+
+.gallery{
+  .gallery-item{ 
+    overflow: hidden;
+    cursor: pointer;
+    img{
+      transition: transform .5s ease;
+    }
+    &:hover img{
+      transform: scale(1.1);
+    }
+  }
+}
