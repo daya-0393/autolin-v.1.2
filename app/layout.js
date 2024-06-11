@@ -12,15 +12,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="sp">
-      <head>
-        <link href='../assets/fontawesome/css/fontawesome.css' rel='stylesheet'/>
-        <link href='../assets/fontawesome/css/solid.css'/>
-      </head>
       <body className={`${inter.className}`}>
         {children}
         <BootstrapClient/>
       </body>
-      <script src="https://kit.fontawesome.com/da33aea8dd.js" crossOrigin="anonymous" async></script>
     </html>
   );
 }

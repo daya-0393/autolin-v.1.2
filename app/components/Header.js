@@ -8,17 +8,17 @@ const Header = () => {
     <header className="header">
       <nav className="navbar navbar-expand-lg">
         <div className="container-fluid px-4">
-          <a className="navbar-brand" href="#">
+          <Link className="navbar-brand" href="#">
             <Image src={Logo} alt="logo" width={180}/>
-          </a>
+          </Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-link" href="#about">Nosotros</a>
-              <a className="nav-link" href="#services">Servicios</a>
-              <a className="nav-link" href="#gallery">Trabajos</a>
+              <Link className="nav-link" href="#about">Nosotros</Link>
+              <Link className="nav-link" href="#services">Servicios</Link>
+              <Link className="nav-link" href="#gallery">Trabajos</Link>
               <Link className="nav-link" href="#contact">Contacto</Link>
             </div>
           </div>

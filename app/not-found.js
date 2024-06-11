@@ -1,5 +1,6 @@
 import '/app/styles/main.scss';
 import { oswald } from './fonts';
+import Link from 'next/link';
 
 const NotFound = () => {
   return (
@@ -14,7 +15,7 @@ const NotFound = () => {
         </div>
         <div className='col centered flex-column p-0'>
           <h1 className={`section-title ${oswald.className}`}>404<br/> Not Found</h1>
-          <a href="/#" className="btn btn-secondary">Back to home</a>
+          <Link href="/#" className="btn btn-secondary">Back to home</Link>
         </div>
       </div>
     </main>
